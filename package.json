@@ -1,0 +1,45 @@
+{
+  "name": "grunt-cmv-git-subtree",
+  "description": "A grunt task to work with git subtrees",
+  "version": "0.1.0",
+  "homepage": "https://github.com/liaodrake/grunt-cmv-git-subtree",
+  "author": {
+    "name": "Christopher Vachon",
+    "email": "code@christophervachon.com",
+    "url": "christophervachon.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liaodrake/grunt-cmv-git-subtree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liaodrake/grunt-cmv-git-subtree/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/liaodrake/grunt-cmv-git-subtree/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "shelljs": "~0.2.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
